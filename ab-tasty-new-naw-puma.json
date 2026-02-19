@@ -7,12 +7,12 @@
       "children": [
         {
           "id": "tier2-new-coming-soon",
-          "name": "New & Coming Soon",
+          "name": "All New & Trending",
           "link": null,
           "children": [
             {
               "id": "tier3-heading-new-coming-soon",
-              "name": "NEW & COMING SOON",
+              "name": "",
               "link": null,
               "isHeading": true,
               "children": [
@@ -52,12 +52,12 @@
         },
         {
           "id": "tier2-trending-in-fashion",
-          "name": "Trending in Fashion",
+          "name": "Fashion Trends",
           "link": null,
           "children": [
             {
               "id": "tier3-heading-trending-in-fashion",
-              "name": "TRENDING IN FASHION",
+              "name": "",
               "link": null,
               "isHeading": true,
               "children": [
@@ -87,7 +87,7 @@
         },
         {
           "id": "tier2-trending-in-sports",
-          "name": "Trending in Sports",
+          "name": "Sports Trends",
           "link": null,
           "children": [
             {
@@ -119,88 +119,682 @@
               ]
             }
           ]
-        },
+        }
+        // ,
+        // {
+        //   "id": "tier2-limited-edition-collabs",
+        //   "name": "Limited-Edition Collabs",
+        //   "link": null,
+        //   "children": [
+        //     {
+        //       "id": "tier3-heading-pop-rap-collabs",
+        //       "name": "POP & RAP COLLABS",
+        //       "link": null,
+        //       "isHeading": true,
+        //       "children": [
+        //         {
+        //           "id": "tier3-fenty-by-rihanna-collab",
+        //           "name": "FENTY X PUMA | by Rihanna",
+        //           "link": "https://uk.puma.com/uk/en/collections/select/fenty-x-puma"
+        //         },
+        //         {
+        //           "id": "tier3-blackpink-rose-collab",
+        //           "name": "PUMA X ROSÉ | KPop",
+        //           "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-rose"
+        //         },
+        //         {
+        //           "id": "tier3-skepta-collab",
+        //           "name": "PUMA X SKEPTA",
+        //           "link": "https://uk.puma.com/uk/en/collections/select/skepta"
+        //         },
+        //         {
+        //           "id": "tier3-asap-rocky-collab",
+        //           "name": "A$AP ROCKY X PUMA ",
+        //           "link": "https://uk.puma.com/uk/en/asap-rocky"
+        //         }
+        //       ]
+        //     },
+        //     {
+        //       "id": "tier3-heading-fashion-collabs",
+        //       "name": "FASHION COLLABS",
+        //       "link": null,
+        //       "isHeading": true,
+        //       "children": [
+        //         {
+        //           "id": "tier3-puma-x-guizio",
+        //           "name": "PUMA X GUIZIO",
+        //           "link": "https://uk.puma.com/uk/en/collections/select/puma-x-guizio"
+        //         },
+        //         {
+        //           "id": "tier3-puma-x-represent",
+        //           "name": "PUMA X REPRESENT",
+        //           "link": "https://uk.puma.com/uk/en/collections/select/puma-x-represent"
+        //         },
+        //         {
+        //           "id": "tier3-puma-x-ripndip",
+        //           "name": "PUMA X RIPNDIP",
+        //           "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-ripndip"
+        //         },
+        //         {
+        //           "id": "tier3-kidsuper-studios-streetwear",
+        //           "name": "PUMA X KIDSUPER",
+        //           "link": "https://uk.puma.com/uk/en/collections/select/puma-x-kidsuper"
+        //         }
+        //       ]
+        //     },
+        //     {
+        //       "id": "tier3-heading-brand-sports-collabs",
+        //       "name": "BRAND & SPORTS COLLABS",
+        //       "link": null,
+        //       "isHeading": true,
+        //       "children": [
+        //         {
+        //           "id": "tier3-puma-x-hello-kitty",
+        //           "name": "PUMA X HELLO KITTY",
+        //           "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-hello-kitty"
+        //         },
+        //         {
+        //           "id": "tier3-hot-wheels-kidswear",
+        //           "name": "PUMA X HOT WHEELS",
+        //           "link": "https://uk.puma.com/uk/en/collections/select/puma-x-hot-wheels"
+        //         },
+        //         {
+        //           "id": "tier3-neymar-jr-footballwear",
+        //           "name": "PUMA X NEYMAR JR | Football",
+        //           "link": "https://uk.puma.com/uk/en/sports/football/neymar-jr"
+        //         }
+        //       ]
+        //     }
+        //   ]
+        // }
+      ]
+    },
+    {
+      "id": "tier1-men",
+      "name": "Men",
+      "link": "https://uk.puma.com/uk/en/men",
+      "children": [
         {
-          "id": "tier2-limited-edition-collabs",
-          "name": "Limited-Edition Collabs",
-          "link": null,
+          "id": "tier2-men-shoes",
+          "name": "Shoes",
+          "link": "https://uk.puma.com/uk/en/men/shoes",
           "children": [
             {
-              "id": "tier3-heading-pop-rap-collabs",
+              "id": "tier3-heading-men-new",
+              "name": "NEW & TRENDING",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-new-footwear",
+                  "name": "New Footwear",
+                  "link": "https://uk.puma.com/uk/en/men/new-arrivals?filter_product_division=%3E%7Bfootwear%7D"
+                },
+                {
+                  "id": "tier3-men-speedcat-collection",
+                  "name": "Speedcat Collection",
+                  "link": "https://uk.puma.com/uk/en/collections/select-collections/speedcat"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-casual-footwear",
+              "name": "CASUAL FOOTWEAR",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-casual-trainers",
+                  "name": "Casual Trainers",
+                  "link": "https://uk.puma.com/uk/en/mens/shoes/mens-trainers-and-sneakers"
+                },
+                {
+                  "id": "tier3-men-white-trainers",
+                  "name": "White Trainers",
+                  "link": "https://uk.puma.com/uk/en/men/shoes/white-trainers"
+                },
+                {
+                  "id": "tier3-men-puma-classics",
+                  "name": "PUMA Classic Trainers",
+                  "link": "https://uk.puma.com/uk/en/unisex/shoes/puma-classics-shoes"
+                },
+                {
+                  "id": "tier3-men-slides-sandals",
+                  "name": "Slides & Sandals",
+                  "link": "https://uk.puma.com/uk/en/men/shoes/slides-and-sandals"
+                },
+                {
+                  "id": "tier3-men-shoe-care",
+                  "name": "Shoe Care",
+                  "link": "https://uk.puma.com/uk/en/shoe-care"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-sports-footwear",
+              "name": "SPORTS FOOTWEAR",
+              "link": "https://uk.puma.com/uk/en/sports?pref_gender=Unisex%2CMens&pref_productDivision=Footwear",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-running-shoes",
+                  "name": "Running Shoes",
+                  "link": "https://uk.puma.com/uk/en/men/shoes/running"
+                },
+                {
+                  "id": "tier3-men-football-boots",
+                  "name": "Football Boots",
+                  "link": "https://uk.puma.com/uk/en/sports/football/football-boots"
+                },
+                {
+                  "id": "tier3-men-gym-training",
+                  "name": "Gym & Training Shoes",
+                  "link": "https://uk.puma.com/uk/en/men/shoes/gym-trainers"
+                },
+                {
+                  "id": "tier3-men-hiking-trail",
+                  "name": "Hiking & Trail Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/running/trail-running"
+                },
+                {
+                  "id": "tier3-men-padel-shoes",
+                  "name": "Padel Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/padel?pref_gender=Unisex%2CMens&pref_productDivision=Footwear"
+                },
+                {
+                  "id": "tier3-men-basketball-shoes",
+                  "name": "Basketball Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/shoes?pref_gender=Unisex%2CMens"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-sale-shoes",
+              "name": "SALE",
+              "link": "https://uk.puma.com/uk/en/sale/men/footwear",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-sale-shoes",
+                  "name": "Sale Men's Shoes",
+                  "link": "https://uk.puma.com/uk/en/sale/men/footwear"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-men-clothing",
+          "name": "Clothing",
+          "link": "https://uk.puma.com/uk/en/men/clothing",
+          "children": [
+            {
+              "id": "tier3-heading-men-new-trending",
+              "name": "NEW & TRENDING",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-new-arrivals",
+                  "name": "New Arrivals",
+                  "link": "https://uk.puma.com/uk/en/men/new-arrivals?filter_product_division=%3E%7Bclothing%7D"
+                },
+                {
+                  "id": "tier3-men-butter-yellow",
+                  "name": "Butter Yellow",
+                  "link": "https://uk.puma.com/uk/en/collections/lifestyle/butter-yellow?pref_gender=Unisex%2CMens&pref_productDivision=Clothing"
+                },
+                {
+                  "id": "tier3-men-t7-stripe-edit",
+                  "name": "The T7 Stripe Edit",
+                  "link": "https://uk.puma.com/uk/en/collections/lifestyle/t7?pref_gender=Mens%2CUnisex&pref_ageGroup=Adults"
+                },
+                {
+                  "id": "tier3-men-pumatech-functional-wear",
+                  "name": "PUMATECH Functional Wear",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/pumatech"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-tops",
+              "name": "TOPS",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-hoodies-sweatshirts",
+                  "name": "Hoodies & Sweatshirts",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/hoodies-and-sweatshirts"
+                },
+                {
+                  "id": "tier3-men-tshirts-tops",
+                  "name": "T-Shirts & Tops",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/t-shirts-and-tops"
+                },
+                {
+                  "id": "tier3-men-coats-jackets",
+                  "name": "Coats & Jackets",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/coats-and-jackets"
+                },
+                {
+                  "id": "tier3-heading-men-bottoms",
+                  "name": "BOTTOMS",
+                  "link": null,
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-men-trousers-joggers",
+                      "name": "Trousers & Joggers",
+                      "link": "https://uk.puma.com/uk/en/men/clothing/trousers-and-joggers"
+                    },
+                    {
+                      "id": "tier3-men-shorts",
+                      "name": "Shorts",
+                      "link": "https://uk.puma.com/uk/en/men/clothing/shorts"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-coords-more",
+              "name": "CO-ORDS & MORE",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-tracksuits",
+                  "name": "Tracksuits",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/tracksuits"
+                },
+                {
+                  "id": "tier3-men-puma-classics",
+                  "name": "PUMA Classics",
+                  "link": "https://uk.puma.com/uk/en/men/essentials"
+                },
+                {
+                  "id": "tier3-men-wardrobe-essentials",
+                  "name": "Wardrobe Essentials",
+                  "link": "https://uk.puma.com/uk/en/men/essentials"
+                },
+                {
+                  "id": "tier3-heading-men-underwear-swimwear",
+                  "name": "UNDERWEAR & SWIMWEAR",
+                  "link": null,
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-men-underwear",
+                      "name": "Underwear",
+                      "link": "https://uk.puma.com/uk/en/men/clothing/underwear"
+                    },
+                    {
+                      "id": "tier3-men-socks",
+                      "name": "Socks",
+                      "link": "https://uk.puma.com/uk/en/men/accessories/socks"
+                    },
+                    {
+                      "id": "tier3-men-swimwear",
+                      "name": "Swimwear",
+                      "link": "https://uk.puma.com/uk/en/men/clothing/swimwear"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-sale-clothing",
+              "name": "SALE",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-sale-clothing",
+                  "name": "Sale Men's Clothing",
+                  "link": "https://uk.puma.com/uk/en/sale/men/clothing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-men-accessories",
+          "name": "Accessories",
+          "link": "https://uk.puma.com/uk/en/men/accessories",
+          "children": [
+            {
+              "id": "tier3-heading-men-accessories",
+              "name": "ACCESSORIES",
+              "link": "https://uk.puma.com/uk/en/men/accessories",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-bags-backpacks",
+                  "name": "Bags & Backpacks",
+                  "link": "https://uk.puma.com/uk/en/men/accessories/bags-and-backpacks"
+                },
+                {
+                  "id": "tier3-men-hats-caps",
+                  "name": "Hats & Caps",
+                  "link": "https://uk.puma.com/uk/en/men/accessories/hats"
+                },
+                {
+                  "id": "tier3-men-accessories-socks",
+                  "name": "Socks",
+                  "link": "https://uk.puma.com/uk/en/men/accessories/socks"
+                },
+                {
+                  "id": "tier3-men-accessories-underwear",
+                  "name": "Underwear",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/underwear"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-fitness-equipment",
+              "name": "FITNESS EQUIPMENT",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-water-bottles",
+                  "name": "Water Bottles",
+                  "link": "https://uk.puma.com/uk/en/search?q=bottles"
+                },
+                {
+                  "id": "tier3-men-padel-rackets",
+                  "name": "Padel Rackets",
+                  "link": "https://uk.puma.com/uk/en/sports/padel?pref_gender=Unisex%2CMens&pref_productDivision=Accessories"
+                },
+                {
+                  "id": "tier3-men-football-equipment",
+                  "name": "Football Gloves, Guards, Balls",
+                  "link": "https://uk.puma.com/uk/en/men/accessories/fitness-equipment?pref_sportCode=Football"
+                },
+                {
+                  "id": "tier3-men-running-gym-gear",
+                  "name": "Running & Gym Gear",
+                  "link": "https://uk.puma.com/uk/en/men/accessories/fitness-equipment?pref_sportCode=Running"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-sale-accessories",
+              "name": "SALE",
+              "link": "https://uk.puma.com/uk/en/sale/men/accessories",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-sale-accessories",
+                  "name": "Sale Men's Accessories",
+                  "link": "https://uk.puma.com/uk/en/sale/men/accessories"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-men-shop-by-sport",
+          "name": "Shop by Sport",
+          "link": "https://uk.puma.com/uk/en/men/sports",
+          "children": [
+            {
+              "id": "tier3-heading-men-team-sports",
+              "name": "TEAM SPORTS",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-football",
+                  "name": "Football",
+                  "link": "https://uk.puma.com/uk/en/men/sports/football"
+                },
+                {
+                  "id": "tier3-men-motorsport",
+                  "name": "Motorsport",
+                  "link": "https://uk.puma.com/uk/en/men/sports/motorsport"
+                },
+                {
+                  "id": "tier3-men-basketball",
+                  "name": "Basketball",
+                  "link": "https://uk.puma.com/uk/en/men/sports/basketball"
+                },
+                {
+                  "id": "tier3-men-padel",
+                  "name": "Padel",
+                  "link": "https://uk.puma.com/uk/en/sports/padel?pref_gender=Unisex%2CMens"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-individual-sports",
+              "name": "INDIVIDUAL SPORTS",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-running",
+                  "name": "Running",
+                  "link": "https://uk.puma.com/uk/en/men/sports/running"
+                },
+                {
+                  "id": "tier3-men-gym-training",
+                  "name": "Gym & Training",
+                  "link": "https://uk.puma.com/uk/en/men/sports/training"
+                },
+                {
+                  "id": "tier3-men-golf",
+                  "name": "Golf",
+                  "link": "https://uk.puma.com/uk/en/men/sports/golf"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-men-sale-sports",
+              "name": "SALE",
+              "link": "https://uk.puma.com/uk/en/sale/men/sports",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-sale-sports",
+                  "name": "Sale Men's Sports",
+                  "link": "https://uk.puma.com/uk/en/sale/men/sports"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-men-limited-edition-collabs",
+          "name": "Limited-Edition Collabs & Edits",
+          "link": "https://uk.puma.com/uk/en/collections/select",
+          "children": [
+            {
+              "id": "tier3-heading-men-pop-rap-collabs",
               "name": "POP & RAP COLLABS",
               "link": null,
               "isHeading": true,
               "children": [
                 {
-                  "id": "tier3-fenty-by-rihanna-collab",
+                  "id": "tier3-men-fenty-by-rihanna",
                   "name": "FENTY X PUMA | by Rihanna",
-                  "link": "https://uk.puma.com/uk/en/collections/select/fenty-x-puma"
+                  "link": "https://uk.puma.com/uk/en/collections/select/fenty-x-puma?pref_gender=Unisex&pref_ageGroup=Adults"
                 },
                 {
-                  "id": "tier3-blackpink-rose-collab",
-                  "name": "PUMA X ROSÉ | KPop",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-rose"
-                },
-                {
-                  "id": "tier3-skepta-collab",
+                  "id": "tier3-men-skepta",
                   "name": "PUMA X SKEPTA",
                   "link": "https://uk.puma.com/uk/en/collections/select/skepta"
                 },
                 {
-                  "id": "tier3-asap-rocky-collab",
-                  "name": "A$AP ROCKY X PUMA ",
-                  "link": "https://uk.puma.com/uk/en/asap-rocky"
+                  "id": "tier3-men-asap-rocky",
+                  "name": "A$AP ROCKY X PUMA",
+                  "link": "https://uk.puma.com/uk/en/asap-rocky?pref_gender=Mens%2CUnisex"
+                },
+                {
+                  "id": "tier3-heading-women-fashion-collabs",
+                  "name": "FASHION COLLABS",
+                  "link": null,
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-puma-x-represent",
+                      "name": "PUMA X REPRESENT",
+                      "link": "https://uk.puma.com/uk/en/collections/select/puma-x-represent"
+                    },
+                    {
+                      "id": "tier3-puma-x-ripndip",
+                      "name": "PUMA X RIPNDIP",
+                      "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-ripndip"
+                    },
+                    {
+                      "id": "tier3-kidsuper-studios-streetwear",
+                      "name": "PUMA X KIDSUPER",
+                      "link": "https://uk.puma.com/uk/en/collections/select/puma-x-kidsuper"
+                    }
+                  ]
+                },
+                {
+                  "id": "tier3-heading-men-brand-sports-collabs",
+                  "name": "BRAND & SPORTS COLLABS",
+                  "link": null,
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-men-hot-wheels-collab",
+                      "name": "PUMA X HOT WHEELS",
+                      "link": "https://uk.puma.com/uk/en/collections/select/puma-x-hot-wheels"
+                    },
+                    {
+                      "id": "tier3-men-neymar-jr",
+                      "name": "PUMA X NEYMAR JR | Football",
+                      "link": "https://uk.puma.com/uk/en/sports/football/neymar-jr"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "id": "tier3-heading-fashion-collabs",
-              "name": "FASHION COLLABS",
+              "id": "tier3-heading-men-trending-shoes-edits",
+              "name": "TRENDING SHOES EDITS",
               "link": null,
               "isHeading": true,
               "children": [
                 {
-                  "id": "tier3-puma-x-guizio",
-                  "name": "PUMA X GUIZIO",
-                  "link": "https://uk.puma.com/uk/en/collections/select/puma-x-guizio"
+                  "id": "tier3-men-speedcat-shoes",
+                  "name": "Speedcat Shoes Edit",
+                  "link": "https://uk.puma.com/uk/en/collections/select-collections/speedcat"
                 },
                 {
-                  "id": "tier3-puma-x-represent",
-                  "name": "PUMA X REPRESENT",
-                  "link": "https://uk.puma.com/uk/en/collections/select/puma-x-represent"
+                  "id": "tier3-men-palermo-shoes",
+                  "name": "Palermo Shoes Edit",
+                  "link": "https://uk.puma.com/uk/en/collections/lifestyle-collections/palermo"
                 },
                 {
-                  "id": "tier3-puma-x-ripndip",
-                  "name": "PUMA X RIPNDIP",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-ripndip"
+                  "id": "tier3-men-mostro-spiked-soles",
+                  "name": "Mostro | Y2K",
+                  "link": "https://uk.puma.com/uk/en/collections/select-collections/mostro"
                 },
                 {
-                  "id": "tier3-kidsuper-studios-streetwear",
-                  "name": "PUMA X KIDSUPER",
-                  "link": "https://uk.puma.com/uk/en/collections/select/puma-x-kidsuper"
+                  "id": "tier3-men-vs1-metallics",
+                  "name": "V-S1 Metallics",
+                  "link": "https://uk.puma.com/uk/en/collections/select-collections/v-s1"
+                },
+                {
+                  "id": "tier3-men-h-street-track-to-street",
+                  "name": "H-Street | Y2K",
+                  "link": "https://uk.puma.com/uk/en/collections/select-collections/h-street"
+                },
+                {
+                  "id": "tier3-heading-men-shoes-archive-reimagined",
+                  "name": "SHOES ARCHIVE REIMAGINED",
+                  "link": null,
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-men-easy-rider-retro-runners",
+                      "name": "Easy Rider",
+                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/rider"
+                    },
+                    {
+                      "id": "tier3-men-suede-skate-sneakers",
+                      "name": "Suede Skate Shoes",
+                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/suede"
+                    },
+                    {
+                      "id": "tier3-men-king-indoor-trainers",
+                      "name": "King Indoor Trainers",
+                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/king"
+                    },
+                    {
+                      "id": "tier3-men-gv-special-court-shoes",
+                      "name": "GV Special | 80s Tennis",
+                      "link": "https://uk.puma.com/uk/en/collections/select-collections/gv-special"
+                    },
+                    {
+                      "id": "tier3-men-inhale-trainers-edit",
+                      "name": "Inhale Trainers | Y2K",
+                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/inhale"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "id": "tier3-heading-brand-sports-collabs",
-              "name": "BRAND & SPORTS COLLABS",
+              "id": "tier3-heading-men-apparel-edits",
+              "name": "APPAREL EDITS",
               "link": null,
               "isHeading": true,
               "children": [
                 {
-                  "id": "tier3-puma-x-hello-kitty",
-                  "name": "PUMA X HELLO KITTY",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-hello-kitty"
+                  "id": "tier3-men-mmq-made-with-quality",
+                  "name": "MMQ - Made with Quality",
+                  "link": "https://uk.puma.com/uk/en/collections/select-collections/mmq?offset=24"
                 },
                 {
-                  "id": "tier3-hot-wheels-kidswear",
-                  "name": "PUMA X HOT WHEELS",
-                  "link": "https://uk.puma.com/uk/en/collections/select/puma-x-hot-wheels"
+                  "id": "tier3-men-t7-stripe-edit-apparel",
+                  "name": "T7 Tracksuits",
+                  "link": "https://uk.puma.com/uk/en/collections/lifestyle/t7"
                 },
                 {
-                  "id": "tier3-neymar-jr-footballwear",
-                  "name": "PUMA X NEYMAR JR | Football",
-                  "link": "https://uk.puma.com/uk/en/sports/football/neymar-jr"
+                  "id": "tier3-men-pumatech-functional-wear-apparel",
+                  "name": "PUMATECH Functional Wear",
+                  "link": "https://uk.puma.com/uk/en/men/clothing/pumatech"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-men-sale",
+          "name": "Sale",
+          "link": "https://uk.puma.com/uk/en/sale/men",
+          "children": [
+            {
+              "id": "tier3-heading-men-sale",
+              "name": "SALE",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-men-sale-shoes-link",
+                  "name": "Sale Men's Shoes",
+                  "link": "https://uk.puma.com/uk/en/sale/men/footwear"
+                },
+                {
+                  "id": "tier3-men-sale-clothing-link",
+                  "name": "Sale Men's Clothing",
+                  "link": "https://uk.puma.com/uk/en/sale/men/clothing"
+                },
+                {
+                  "id": "tier3-men-sale-accessories-link",
+                  "name": "Sale Men's Accessories",
+                  "link": "https://uk.puma.com/uk/en/sale/men/accessories"
+                },
+                {
+                  "id": "tier3-men-sale-sports-link",
+                  "name": "Sale Men's Sports",
+                  "link": "https://uk.puma.com/uk/en/sale/men/sports"
                 }
               ]
             }
@@ -872,599 +1466,6 @@
       ]
     },
     {
-      "id": "tier1-men",
-      "name": "Men",
-      "link": "https://uk.puma.com/uk/en/men",
-      "children": [
-        {
-          "id": "tier2-men-shoes",
-          "name": "Shoes",
-          "link": "https://uk.puma.com/uk/en/men/shoes",
-          "children": [
-            {
-              "id": "tier3-heading-men-new",
-              "name": "NEW & TRENDING",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-new-footwear",
-                  "name": "New Footwear",
-                  "link": "https://uk.puma.com/uk/en/men/new-arrivals?filter_product_division=%3E%7Bfootwear%7D"
-                },
-                {
-                  "id": "tier3-men-speedcat-collection",
-                  "name": "Speedcat Collection",
-                  "link": "https://uk.puma.com/uk/en/collections/select-collections/speedcat"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-casual-footwear",
-              "name": "CASUAL FOOTWEAR",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-casual-trainers",
-                  "name": "Casual Trainers",
-                  "link": "https://uk.puma.com/uk/en/mens/shoes/mens-trainers-and-sneakers"
-                },
-                {
-                  "id": "tier3-men-white-trainers",
-                  "name": "White Trainers",
-                  "link": "https://uk.puma.com/uk/en/men/shoes/white-trainers"
-                },
-                {
-                  "id": "tier3-men-puma-classics",
-                  "name": "PUMA Classic Trainers",
-                  "link": "https://uk.puma.com/uk/en/unisex/shoes/puma-classics-shoes"
-                },
-                {
-                  "id": "tier3-men-slides-sandals",
-                  "name": "Slides & Sandals",
-                  "link": "https://uk.puma.com/uk/en/men/shoes/slides-and-sandals"
-                },
-                {
-                  "id": "tier3-men-shoe-care",
-                  "name": "Shoe Care",
-                  "link": "https://uk.puma.com/uk/en/shoe-care"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-sports-footwear",
-              "name": "SPORTS FOOTWEAR",
-              "link": "https://uk.puma.com/uk/en/sports?pref_gender=Unisex%2CMens&pref_productDivision=Footwear",
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-running-shoes",
-                  "name": "Running Shoes",
-                  "link": "https://uk.puma.com/uk/en/men/shoes/running"
-                },
-                {
-                  "id": "tier3-men-football-boots",
-                  "name": "Football Boots",
-                  "link": "https://uk.puma.com/uk/en/sports/football/football-boots"
-                },
-                {
-                  "id": "tier3-men-gym-training",
-                  "name": "Gym & Training Shoes",
-                  "link": "https://uk.puma.com/uk/en/men/shoes/gym-trainers"
-                },
-                {
-                  "id": "tier3-men-hiking-trail",
-                  "name": "Hiking & Trail Shoes",
-                  "link": "https://uk.puma.com/uk/en/sports/running/trail-running"
-                },
-                {
-                  "id": "tier3-men-padel-shoes",
-                  "name": "Padel Shoes",
-                  "link": "https://uk.puma.com/uk/en/sports/padel?pref_gender=Unisex%2CMens&pref_productDivision=Footwear"
-                },
-                {
-                  "id": "tier3-men-basketball-shoes",
-                  "name": "Basketball Shoes",
-                  "link": "https://uk.puma.com/uk/en/sports/basketball/shoes?pref_gender=Unisex%2CMens"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-sale-shoes",
-              "name": "SALE",
-              "link": "https://uk.puma.com/uk/en/sale/men/footwear",
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-sale-shoes",
-                  "name": "Sale Men's Shoes",
-                  "link": "https://uk.puma.com/uk/en/sale/men/footwear"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tier2-men-clothing",
-          "name": "Clothing",
-          "link": "https://uk.puma.com/uk/en/men/clothing",
-          "children": [
-            {
-              "id": "tier3-heading-men-new-trending",
-              "name": "NEW & TRENDING",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-new-arrivals",
-                  "name": "New Arrivals",
-                  "link": "https://uk.puma.com/uk/en/men/new-arrivals?filter_product_division=%3E%7Bclothing%7D"
-                },
-                {
-                  "id": "tier3-men-butter-yellow",
-                  "name": "Butter Yellow",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle/butter-yellow?pref_gender=Unisex%2CMens&pref_productDivision=Clothing"
-                },
-                {
-                  "id": "tier3-men-t7-stripe-edit",
-                  "name": "The T7 Stripe Edit",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle/t7?pref_gender=Mens%2CUnisex&pref_ageGroup=Adults"
-                },
-                {
-                  "id": "tier3-men-pumatech-functional-wear",
-                  "name": "PUMATECH Functional Wear",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/pumatech"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-tops",
-              "name": "TOPS",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-hoodies-sweatshirts",
-                  "name": "Hoodies & Sweatshirts",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/hoodies-and-sweatshirts"
-                },
-                {
-                  "id": "tier3-men-tshirts-tops",
-                  "name": "T-Shirts & Tops",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/t-shirts-and-tops"
-                },
-                {
-                  "id": "tier3-men-coats-jackets",
-                  "name": "Coats & Jackets",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/coats-and-jackets"
-                },
-                {
-                  "id": "tier3-heading-men-bottoms",
-                  "name": "BOTTOMS",
-                  "link": null,
-                  "isHeading": true,
-                  "children": [
-                    {
-                      "id": "tier3-men-trousers-joggers",
-                      "name": "Trousers & Joggers",
-                      "link": "https://uk.puma.com/uk/en/men/clothing/trousers-and-joggers"
-                    },
-                    {
-                      "id": "tier3-men-shorts",
-                      "name": "Shorts",
-                      "link": "https://uk.puma.com/uk/en/men/clothing/shorts"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-coords-more",
-              "name": "CO-ORDS & MORE",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-tracksuits",
-                  "name": "Tracksuits",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/tracksuits"
-                },
-                {
-                  "id": "tier3-men-puma-classics",
-                  "name": "PUMA Classics",
-                  "link": "https://uk.puma.com/uk/en/men/essentials"
-                },
-                {
-                  "id": "tier3-men-wardrobe-essentials",
-                  "name": "Wardrobe Essentials",
-                  "link": "https://uk.puma.com/uk/en/men/essentials"
-                },
-                {
-                  "id": "tier3-heading-men-underwear-swimwear",
-                  "name": "UNDERWEAR & SWIMWEAR",
-                  "link": null,
-                  "isHeading": true,
-                  "children": [
-                    {
-                      "id": "tier3-men-underwear",
-                      "name": "Underwear",
-                      "link": "https://uk.puma.com/uk/en/men/clothing/underwear"
-                    },
-                    {
-                      "id": "tier3-men-socks",
-                      "name": "Socks",
-                      "link": "https://uk.puma.com/uk/en/men/accessories/socks"
-                    },
-                    {
-                      "id": "tier3-men-swimwear",
-                      "name": "Swimwear",
-                      "link": "https://uk.puma.com/uk/en/men/clothing/swimwear"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-sale-clothing",
-              "name": "SALE",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-sale-clothing",
-                  "name": "Sale Men's Clothing",
-                  "link": "https://uk.puma.com/uk/en/sale/men/clothing"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tier2-men-accessories",
-          "name": "Accessories",
-          "link": "https://uk.puma.com/uk/en/men/accessories",
-          "children": [
-            {
-              "id": "tier3-heading-men-accessories",
-              "name": "ACCESSORIES",
-              "link": "https://uk.puma.com/uk/en/men/accessories",
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-bags-backpacks",
-                  "name": "Bags & Backpacks",
-                  "link": "https://uk.puma.com/uk/en/men/accessories/bags-and-backpacks"
-                },
-                {
-                  "id": "tier3-men-hats-caps",
-                  "name": "Hats & Caps",
-                  "link": "https://uk.puma.com/uk/en/men/accessories/hats"
-                },
-                {
-                  "id": "tier3-men-accessories-socks",
-                  "name": "Socks",
-                  "link": "https://uk.puma.com/uk/en/men/accessories/socks"
-                },
-                {
-                  "id": "tier3-men-accessories-underwear",
-                  "name": "Underwear",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/underwear"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-fitness-equipment",
-              "name": "FITNESS EQUIPMENT",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-water-bottles",
-                  "name": "Water Bottles",
-                  "link": "https://uk.puma.com/uk/en/search?q=bottles"
-                },
-                {
-                  "id": "tier3-men-padel-rackets",
-                  "name": "Padel Rackets",
-                  "link": "https://uk.puma.com/uk/en/sports/padel?pref_gender=Unisex%2CMens&pref_productDivision=Accessories"
-                },
-                {
-                  "id": "tier3-men-football-equipment",
-                  "name": "Football Gloves, Guards, Balls",
-                  "link": "https://uk.puma.com/uk/en/men/accessories/fitness-equipment?pref_sportCode=Football"
-                },
-                {
-                  "id": "tier3-men-running-gym-gear",
-                  "name": "Running & Gym Gear",
-                  "link": "https://uk.puma.com/uk/en/men/accessories/fitness-equipment?pref_sportCode=Running"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-sale-accessories",
-              "name": "SALE",
-              "link": "https://uk.puma.com/uk/en/sale/men/accessories",
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-sale-accessories",
-                  "name": "Sale Men's Accessories",
-                  "link": "https://uk.puma.com/uk/en/sale/men/accessories"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tier2-men-shop-by-sport",
-          "name": "Shop by Sport",
-          "link": "https://uk.puma.com/uk/en/men/sports",
-          "children": [
-            {
-              "id": "tier3-heading-men-team-sports",
-              "name": "TEAM SPORTS",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-football",
-                  "name": "Football",
-                  "link": "https://uk.puma.com/uk/en/men/sports/football"
-                },
-                {
-                  "id": "tier3-men-motorsport",
-                  "name": "Motorsport",
-                  "link": "https://uk.puma.com/uk/en/men/sports/motorsport"
-                },
-                {
-                  "id": "tier3-men-basketball",
-                  "name": "Basketball",
-                  "link": "https://uk.puma.com/uk/en/men/sports/basketball"
-                },
-                {
-                  "id": "tier3-men-padel",
-                  "name": "Padel",
-                  "link": "https://uk.puma.com/uk/en/sports/padel?pref_gender=Unisex%2CMens"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-individual-sports",
-              "name": "INDIVIDUAL SPORTS",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-running",
-                  "name": "Running",
-                  "link": "https://uk.puma.com/uk/en/men/sports/running"
-                },
-                {
-                  "id": "tier3-men-gym-training",
-                  "name": "Gym & Training",
-                  "link": "https://uk.puma.com/uk/en/men/sports/training"
-                },
-                {
-                  "id": "tier3-men-golf",
-                  "name": "Golf",
-                  "link": "https://uk.puma.com/uk/en/men/sports/golf"
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-sale-sports",
-              "name": "SALE",
-              "link": "https://uk.puma.com/uk/en/sale/men/sports",
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-sale-sports",
-                  "name": "Sale Men's Sports",
-                  "link": "https://uk.puma.com/uk/en/sale/men/sports"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tier2-men-limited-edition-collabs",
-          "name": "Limited-Edition Collabs & Edits",
-          "link": "https://uk.puma.com/uk/en/collections/select",
-          "children": [
-            {
-              "id": "tier3-heading-men-pop-rap-collabs",
-              "name": "POP & RAP COLLABS",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-fenty-by-rihanna",
-                  "name": "FENTY X PUMA | by Rihanna",
-                  "link": "https://uk.puma.com/uk/en/collections/select/fenty-x-puma?pref_gender=Unisex&pref_ageGroup=Adults"
-                },
-                {
-                  "id": "tier3-men-skepta",
-                  "name": "PUMA X SKEPTA",
-                  "link": "https://uk.puma.com/uk/en/collections/select/skepta"
-                },
-                {
-                  "id": "tier3-men-asap-rocky",
-                  "name": "A$AP ROCKY X PUMA",
-                  "link": "https://uk.puma.com/uk/en/asap-rocky?pref_gender=Mens%2CUnisex"
-                },
-                {
-                  "id": "tier3-heading-women-fashion-collabs",
-                  "name": "FASHION COLLABS",
-                  "link": null,
-                  "isHeading": true,
-                  "children": [
-                    {
-                      "id": "tier3-puma-x-represent",
-                      "name": "PUMA X REPRESENT",
-                      "link": "https://uk.puma.com/uk/en/collections/select/puma-x-represent"
-                    },
-                    {
-                      "id": "tier3-puma-x-ripndip",
-                      "name": "PUMA X RIPNDIP",
-                      "link": "https://uk.puma.com/uk/en/collections/lifestyle-collaborations/puma-x-ripndip"
-                    },
-                    {
-                      "id": "tier3-kidsuper-studios-streetwear",
-                      "name": "PUMA X KIDSUPER",
-                      "link": "https://uk.puma.com/uk/en/collections/select/puma-x-kidsuper"
-                    }
-                  ]
-                },
-                {
-                  "id": "tier3-heading-men-brand-sports-collabs",
-                  "name": "BRAND & SPORTS COLLABS",
-                  "link": null,
-                  "isHeading": true,
-                  "children": [
-                    {
-                      "id": "tier3-men-hot-wheels-collab",
-                      "name": "PUMA X HOT WHEELS",
-                      "link": "https://uk.puma.com/uk/en/collections/select/puma-x-hot-wheels"
-                    },
-                    {
-                      "id": "tier3-men-neymar-jr",
-                      "name": "PUMA X NEYMAR JR | Football",
-                      "link": "https://uk.puma.com/uk/en/sports/football/neymar-jr"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-trending-shoes-edits",
-              "name": "TRENDING SHOES EDITS",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-speedcat-shoes",
-                  "name": "Speedcat Shoes Edit",
-                  "link": "https://uk.puma.com/uk/en/collections/select-collections/speedcat"
-                },
-                {
-                  "id": "tier3-men-palermo-shoes",
-                  "name": "Palermo Shoes Edit",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle-collections/palermo"
-                },
-                {
-                  "id": "tier3-men-mostro-spiked-soles",
-                  "name": "Mostro | Y2K",
-                  "link": "https://uk.puma.com/uk/en/collections/select-collections/mostro"
-                },
-                {
-                  "id": "tier3-men-vs1-metallics",
-                  "name": "V-S1 Metallics",
-                  "link": "https://uk.puma.com/uk/en/collections/select-collections/v-s1"
-                },
-                {
-                  "id": "tier3-men-h-street-track-to-street",
-                  "name": "H-Street | Y2K",
-                  "link": "https://uk.puma.com/uk/en/collections/select-collections/h-street"
-                },
-                {
-                  "id": "tier3-heading-men-shoes-archive-reimagined",
-                  "name": "SHOES ARCHIVE REIMAGINED",
-                  "link": null,
-                  "isHeading": true,
-                  "children": [
-                    {
-                      "id": "tier3-men-easy-rider-retro-runners",
-                      "name": "Easy Rider",
-                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/rider"
-                    },
-                    {
-                      "id": "tier3-men-suede-skate-sneakers",
-                      "name": "Suede Skate Shoes",
-                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/suede"
-                    },
-                    {
-                      "id": "tier3-men-king-indoor-trainers",
-                      "name": "King Indoor Trainers",
-                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/king"
-                    },
-                    {
-                      "id": "tier3-men-gv-special-court-shoes",
-                      "name": "GV Special | 80s Tennis",
-                      "link": "https://uk.puma.com/uk/en/collections/select-collections/gv-special"
-                    },
-                    {
-                      "id": "tier3-men-inhale-trainers-edit",
-                      "name": "Inhale Trainers | Y2K",
-                      "link": "https://uk.puma.com/uk/en/collections/lifestyle/inhale"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "tier3-heading-men-apparel-edits",
-              "name": "APPAREL EDITS",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-mmq-made-with-quality",
-                  "name": "MMQ - Made with Quality",
-                  "link": "https://uk.puma.com/uk/en/collections/select-collections/mmq?offset=24"
-                },
-                {
-                  "id": "tier3-men-t7-stripe-edit-apparel",
-                  "name": "T7 Tracksuits",
-                  "link": "https://uk.puma.com/uk/en/collections/lifestyle/t7"
-                },
-                {
-                  "id": "tier3-men-pumatech-functional-wear-apparel",
-                  "name": "PUMATECH Functional Wear",
-                  "link": "https://uk.puma.com/uk/en/men/clothing/pumatech"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tier2-men-sale",
-          "name": "Sale",
-          "link": "https://uk.puma.com/uk/en/sale/men",
-          "children": [
-            {
-              "id": "tier3-heading-men-sale",
-              "name": "SALE",
-              "link": null,
-              "isHeading": true,
-              "children": [
-                {
-                  "id": "tier3-men-sale-shoes-link",
-                  "name": "Sale Men's Shoes",
-                  "link": "https://uk.puma.com/uk/en/sale/men/footwear"
-                },
-                {
-                  "id": "tier3-men-sale-clothing-link",
-                  "name": "Sale Men's Clothing",
-                  "link": "https://uk.puma.com/uk/en/sale/men/clothing"
-                },
-                {
-                  "id": "tier3-men-sale-accessories-link",
-                  "name": "Sale Men's Accessories",
-                  "link": "https://uk.puma.com/uk/en/sale/men/accessories"
-                },
-                {
-                  "id": "tier3-men-sale-sports-link",
-                  "name": "Sale Men's Sports",
-                  "link": "https://uk.puma.com/uk/en/sale/men/sports"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "tier1-kids",
       "name": "Kids",
       "link": "https://uk.puma.com/uk/en/kids",
@@ -2099,6 +2100,447 @@
       "id": "tier1-sports",
       "name": "Sports",
       "link": "https://uk.puma.com/uk/en/sports",
+      "children": [
+        {
+          "id": "tier2-sports-running",
+          "name": "Running",
+          "link": "https://uk.puma.com/uk/en/sports/running",
+          "children": [
+            {
+              "id": "tier3-heading-running-shoes",
+              "name": "RUNNING SHOES",
+              "link": "https://uk.puma.com/uk/en/sports/running/running-shoes",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-everyday-road-running-shoes",
+                  "name": "Everyday Road Running Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/running/road-running"
+                },
+                {
+                  "id": "tier3-race-day-running-shoes",
+                  "name": "Race Day Running Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/running/race-day"
+                },
+                {
+                  "id": "tier3-trail-running-shoes",
+                  "name": "Trail Running Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/running/trail-running"
+                },
+                {
+                  "id": "tier3-track-field-shoes",
+                  "name": "Track & Field Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/running/track-and-field"
+                },
+                {
+                  "id": "tier3-nitro-running-shoes",
+                  "name": "NITRO® Running Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/running/nitro"
+                },
+                {
+                  "id": "tier3-running-shoe-finder",
+                  "name": "Running Shoe Finder",
+                  "link": "https://uk.puma.com/uk/en/running-shoe-finder"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-running-wear-gear",
+              "name": "RUNNING WEAR & GEAR",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-running-clothing",
+                  "name": "Running Clothing",
+                  "link": "https://uk.puma.com/uk/en/sports/running/apparel"
+                },
+                {
+                  "id": "tier3-running-accessories",
+                  "name": "Running Accessories",
+                  "link": "https://uk.puma.com/uk/en/sports/running/accessories"
+                },
+                {
+                  "id": "tier3-puma-saysky-running-collection",
+                  "name": "PUMA X SAYSKY Running Collection",
+                  "link": "https://uk.puma.com/uk/en/sports/running/saysky"
+                },
+                {
+                  "id": "tier3-seasons-trail-running-collection",
+                  "name": "SEASONS Trail Running Collection",
+                  "link": "https://uk.puma.com/uk/en/sports/running/seasons"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-sports-gym-yoga-swim",
+          "name": "Gym, Yoga, Swim",
+          "link": "https://uk.puma.com/uk/en/sports/training",
+          "children": [
+            {
+              "id": "tier3-heading-gym-training",
+              "name": "GYM & TRAINING",
+              "link": "https://uk.puma.com/uk/en/sports/training",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-gym-training-shoes",
+                  "name": "Gym & Training Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/training/shoes"
+                },
+                {
+                  "id": "tier3-gym-training-clothing",
+                  "name": "Gym & Training Clothing",
+                  "link": "https://uk.puma.com/uk/en/sports/training/apparel"
+                },
+                {
+                  "id": "tier3-hyrox-training-wear",
+                  "name": "HYROX Training Wear",
+                  "link": "https://uk.puma.com/uk/en/sports/training/hyrox?offset=24"
+                },
+                {
+                  "id": "tier3-modest-activewear",
+                  "name": "Modest Activewear",
+                  "link": "https://uk.puma.com/uk/en/sports/training/modest-activewear"
+                },
+                {
+                  "id": "tier3-yoga-wear",
+                  "name": "Yoga Wear",
+                  "link": "https://uk.puma.com/uk/en/sports/training/yoga"
+                },
+                {
+                  "id": "tier3-gym-training-accessories",
+                  "name": "Gym & Training Accessories",
+                  "link": "https://uk.puma.com/uk/en/sports/training/accessories"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-gym-training-collections",
+              "name": "GYM & TRAINING COLLECTIONS",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-ultrasoft-cloudspun-collection",
+                  "name": "Cloudspun | Ultrasoft",
+                  "link": "https://uk.puma.com/uk/en/sports/training/cloudspun"
+                },
+                {
+                  "id": "tier3-athleisure-collection",
+                  "name": "Athleisure Collection",
+                  "link": "https://uk.puma.com/uk/en/sports/training/athleisure"
+                },
+                {
+                  "id": "tier3-training-collection",
+                  "name": "Training Collection",
+                  "link": "https://uk.puma.com/uk/en/sports/training/essentials"
+                },
+                {
+                  "id": "tier3-heading-swimwear",
+                  "name": "SWIMWEAR",
+                  "link": "https://uk.puma.com/uk/en/sports/other-sports/swimwear",
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-swimwear-link",
+                      "name": "Swimwear",
+                      "link": "https://uk.puma.com/uk/en/sports/other-sports/swimwear"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-sports-football",
+          "name": "Football",
+          "link": "https://uk.puma.com/uk/en/sports/football",
+          "children": [
+            {
+              "id": "tier3-heading-football",
+              "name": "FOOTBALL",
+              "link": "https://uk.puma.com/uk/en/sports/football",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-premier-league-balls-kit",
+                  "name": "Premier League Balls & Kit",
+                  "link": "https://uk.puma.com/uk/en/sports/football/premier-league"
+                },
+                {
+                  "id": "tier3-football-boots",
+                  "name": "Football Boots",
+                  "link": "https://uk.puma.com/uk/en/sports/football/football-boots"
+                },
+                {
+                  "id": "tier3-football-training-wear",
+                  "name": "Football Training Wear",
+                  "link": "https://uk.puma.com/uk/en/sports/football/training-wear?offset=24"
+                },
+                {
+                  "id": "tier3-football-equipment",
+                  "name": "Football Equipment",
+                  "link": "https://uk.puma.com/uk/en/sports/football/equipment"
+                },
+                {
+                  "id": "tier3-womens-football",
+                  "name": "Women's Football",
+                  "link": "https://uk.puma.com/uk/en/women/sports/football"
+                },
+                {
+                  "id": "tier3-football-boots-hot-pursuit-pack",
+                  "name": "Football Boots: Hot Pursuit Pack",
+                  "link": "https://uk.puma.com/uk/en/sports/football/hot-pursuit-pack"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-club-teams",
+              "name": "CLUB TEAMS",
+              "link": "https://uk.puma.com/uk/en/sports/football/club-teams",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-manchester-city",
+                  "name": "Manchester City",
+                  "link": "https://uk.puma.com/uk/en/sports/football/club-teams/manchester-city"
+                },
+                {
+                  "id": "tier3-ac-milan",
+                  "name": "AC Milan",
+                  "link": "https://uk.puma.com/uk/en/sports/football/club-teams/ac-milan"
+                },
+                {
+                  "id": "tier3-borussia-dortmund",
+                  "name": "Borussia Dortmund",
+                  "link": "https://uk.puma.com/uk/en/sports/football/club-teams/bvb"
+                },
+                {
+                  "id": "tier3-all-club-teams",
+                  "name": "All Club Teams",
+                  "link": "https://uk.puma.com/uk/en/sports/football/club-teams"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-national-teams",
+              "name": "NATIONAL TEAMS",
+              "link": "https://uk.puma.com/uk/en/sports/football/national-teams",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-portugal",
+                  "name": "Portugal",
+                  "link": "https://uk.puma.com/uk/en/sports/football/national-teams/portugal"
+                },
+                {
+                  "id": "tier3-all-national-teams",
+                  "name": "All National Teams",
+                  "link": "https://uk.puma.com/uk/en/sports/football/national-teams"
+                },
+                {
+                  "id": "tier3-heading-football-collabs",
+                  "name": "FOOTBALL COLLABS",
+                  "link": "https://uk.puma.com/uk/en/sports/football/neymar-jr",
+                  "isHeading": true,
+                  "children": [
+                    {
+                      "id": "tier3-neymar-jr-collab",
+                      "name": "PUMA X NEYMAR JR | Football",
+                      "link": "https://uk.puma.com/uk/en/sports/football/neymar-jr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-sports-motorsport",
+          "name": "Motorsport",
+          "link": "https://uk.puma.com/uk/en/sports/motorsport",
+          "children": [
+            {
+              "id": "tier3-heading-motorsport",
+              "name": "MOTORSPORT",
+              "link": "https://uk.puma.com/uk/en/sports/motorsport",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-motorsport-shoes",
+                  "name": "Motorsport Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/footwear"
+                },
+                {
+                  "id": "tier3-motorsport-clothing",
+                  "name": "Motorsport Clothing",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/apparel"
+                },
+                {
+                  "id": "tier3-motorsport-accessories",
+                  "name": "Motorsport Accessories",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/hats-caps-and-accessories"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-motorsport-teams",
+              "name": "MOTORSPORT TEAMS",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-scuderia-ferrari",
+                  "name": "Scuderia Ferrari",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/scuderia-ferrari"
+                },
+                {
+                  "id": "tier3-aston-martin-aramco-f1-team",
+                  "name": "Aston Martin Aramco F1® Team",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/aston-martin-aramco-f1-team"
+                },
+                {
+                  "id": "tier3-williams-racing",
+                  "name": "Williams Racing",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/williams-racing"
+                },
+                {
+                  "id": "tier3-bmw-motorsport",
+                  "name": "BMW Motorsport",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/bmw-motorsport"
+                },
+                {
+                  "id": "tier3-porsche",
+                  "name": "Porsche",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/porsche"
+                },
+                {
+                  "id": "tier3-formula-1",
+                  "name": "Formula 1",
+                  "link": "https://uk.puma.com/uk/en/sports/motorsport/puma-x-f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-sports-basketball",
+          "name": "Basketball",
+          "link": "https://uk.puma.com/uk/en/sports/basketball-main",
+          "children": [
+            {
+              "id": "tier3-heading-basketball",
+              "name": "BASKETBALL",
+              "link": "https://uk.puma.com/uk/en/sports/basketball-main",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-basketball-shoes",
+                  "name": "Basketball Shoes",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/shoes"
+                },
+                {
+                  "id": "tier3-basketball-clothing",
+                  "name": "Basketball Clothing",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/clothing"
+                },
+                {
+                  "id": "tier3-basketball-accessories",
+                  "name": "Basketball Accessories",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/accessories"
+                }
+              ]
+            },
+            {
+              "id": "tier3-heading-basketball-collabs",
+              "name": "BASKETBALL COLLABS",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-lamelo-ball-collab",
+                  "name": "PUMA X LAMELO | LaMelo Ball",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/lamelo"
+                },
+                {
+                  "id": "tier3-scoot-henderson-collab",
+                  "name": "PUMA X SCOOT | Scoot Henderson",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/scoot"
+                },
+                {
+                  "id": "tier3-breanna-stewart-collab",
+                  "name": "PUMA X STEWIE | Breanna Stewart",
+                  "link": "https://uk.puma.com/uk/en/sports/basketball/puma-x-stewie"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-sports-padel-golf-cricket-rugby",
+          "name": "Padel, Golf, Cricket, Rugby",
+          "link": "https://uk.puma.com/uk/en/sports/other-sports",
+          "children": [
+            {
+              "id": "tier3-heading-padel-golf-cricket-rugby",
+              "name": "PADEL, GOLF, CRICKET, RUGBY",
+              "link": null,
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-padel",
+                  "name": "Padel",
+                  "link": "https://uk.puma.com/uk/en/sports/padel"
+                },
+                {
+                  "id": "tier3-golf",
+                  "name": "Golf",
+                  "link": "https://uk.puma.com/uk/en/sports/golf"
+                },
+                {
+                  "id": "tier3-cricket",
+                  "name": "Cricket",
+                  "link": "https://uk.puma.com/uk/en/sports/other-sports?pref_sportCode=Cricket"
+                },
+                {
+                  "id": "tier3-rugby",
+                  "name": "Rugby",
+                  "link": "https://uk.puma.com/uk/en/sports/other-sports?pref_sportCode=Rugby"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tier2-sports-accessories",
+          "name": "Sports Accessories",
+          "link": "https://uk.puma.com/uk/en/sports/training/accessories?offset=24",
+          "children": [
+            {
+              "id": "tier3-heading-sports-accessories",
+              "name": "SPORTS ACCESSORIES",
+              "link": "https://uk.puma.com/uk/en/sports/training/accessories?offset=24",
+              "isHeading": true,
+              "children": [
+                {
+                  "id": "tier3-training-accessories",
+                  "name": "Training Accessories",
+                  "link": "https://uk.puma.com/uk/en/sports/training/accessories?offset=24"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tier1-lifestyle",
+      "name": "Lifestyle",
+      "link": "https://uk.puma.com/uk/en/collections/lifestyle",
       "children": [
         {
           "id": "tier2-sports-running",
